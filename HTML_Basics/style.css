@@ -1,0 +1,62 @@
+
+body{
+    background-color:rgb(96, 96, 96) ;
+    width: 800px;
+    text-align: center;
+    position: relative;
+    display: block;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+span{
+    text-align: right;
+    color: rgb(200, 194, 194);
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.centrato{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 20px;
+}
+.dati{
+    display: inline-block;
+
+    margin: auto;
+
+
+    width: 49%;
+    text-align: left;
+    position: relative;
+}
+.img{
+    display: inline-block;
+    position: relative;
+    border-radius: 5px;
+    margin: auto;
+    width: 49%;
+    text-align: right;
+    position: relative;
+}
+
+section
+{
+
+    width: 100;
+    text-align: left;
+}
+
+
+fieldset{
+    border-radius: 5px;
+    background-color: rgb(72, 71, 71);
+    font-family: 'Courier New', Courier, monospace;
+}
+legend{
+    color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+}
