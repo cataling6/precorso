@@ -1,0 +1,1 @@
+il progetto "precorso" è diviso in varie sezioni, nonchè cartelle denominate come nel precorso: HTML Basics, Frontend Basics, CSS Basics, Flexbox e YouTubeClone
