@@ -8,43 +8,31 @@
     <title>Frontend Basics</title>
 </head>
 <body>
-    <fieldset class="principale">
+   
 
-    <fieldset class="dati"> <legend>Dati Registrazione</legend>
+    <fieldset > <legend>Dati Registrazione</legend>
+    <div class="dati">
     <form action="">
-    <input type="text" placeholder="Nome:">
-    <input type="text" placeholder="Cognome:"> 
-    <input type="email" placeholder="E-mail:">
-    <input type="password" placeholder="Password:">
-    <input type="date" placeholder="Data di nascita:" >
-    <input type="number" placeholder="Telefono:" >
+    <input class="input_dati"type="text" placeholder="Nome:">
+    <input class="input_dati"type="text" placeholder="Cognome:"> 
+    <input class="input_dati"type="email" placeholder="E-mail:">
+    <input class="input_dati"type="password" placeholder="Password:">
+    <input class="input_dati"type="date" placeholder="Data di nascita:" >
+    <input class="input_dati"type="number" placeholder="Telefono:" >
+    </div>
     </fieldset>
-    <fieldset class="gusti"><legend>Gusti Musicali</legend>
-    <table >
-        <tr>
-            <td><input name="dance" type="checkbox"></td>
-            <td>Dance</td>
-        </tr>
-        <tr>  
-            <td><input name="commerciale" type="checkbox"></td>
-            <td>Commerciale</td>
-        </tr>
-        <tr>
-            <td><input name="latino" type="checkbox"></td>
-            <td>Latino</td>
-        </tr>
-        <tr>  
-            <td><input name="elettronica" type="checkbox"></td>
-            <td>Elettronica</td>
-        </tr>
-       
-    </table>
-    
 
-
+    <fieldset><legend>Gusti Musicali</legend>
+    <div class="gusti">
+        <input  name="dance" type="checkbox"><label for="">Dance</label><br>
+        <input  name="commerciale" type="checkbox"><label for="">Commerciale</label><br>
+        <input  name="latino" type="checkbox"><label for="">Latino</label><br>
+        <input name="elettronica" type="checkbox"><label for="">Elettronica</label>
+    </div>
     </fieldset>
+
     <footer>
-        <label for=""><input type="radio">Accetto Termini e Condizioni</label>
+        <label for=""><input type="radio">Accetto Termini e Condizioni</label><br>
         <input type="submit" value="Invia Registrazione">
     </footer>
 
@@ -52,6 +40,6 @@
     
     </form>
     
-</fieldset>
+
 </body>
 </html>
