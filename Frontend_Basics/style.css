@@ -1,0 +1,84 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    background-color: rgb(44, 44, 44);
+    
+}
+fieldset{
+
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    width: 80%;
+
+}
+input{
+
+    max-width: 400px
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: 1px;
+    border-color: aquamarine;
+    padding: 4px;
+    
+
+}
+
+label{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.dati{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.gusti{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+legend{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+table{
+    text-align: left;
+    padding: 3px;
+    border-color: brown;
+    border: none;
+    width: 100%;
+    
+
+  
+
+}
+tr,td{
+    margin: 2px;
+    padding: 2px;
+}
+
+footer{
+
+    width: 80%;
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.check{
+    border-color: aqua;
+}
+.principale{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
