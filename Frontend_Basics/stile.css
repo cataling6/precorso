@@ -15,7 +15,7 @@ fieldset{
 }
 input{
 
-    max-width: 400px
+    max-width: 400px;
     min-width: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -23,7 +23,6 @@ input{
     border: 1px;
     border-color: aquamarine;
     padding: 4px;
-    
 
 }
 
