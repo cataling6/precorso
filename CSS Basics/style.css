@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,600&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-section{
+    padding: 20px;
+}
+/*classi per immagine di ogni pagina*/
+.transfagarasan{
+    height: 500px;
+    background-image: url(images/trans.jpeg);
+    background-size: 100%;
+    background-position: 50%;
+}
+.balea{
+    height: 500px;
+    background-image: url(images/balea.jpeg);
+    background-size: 100%;
+    background-position: 50%;
+}
+.brasov{
+    height: 500px;
+    background-image: url(images/brasov.jpg);
+    background-size: 100%;
+    background-position: 50%;
+}
+.sibiu{
+    height: 500px;
+    background-image: url(images/sibiu.jpeg);
+    background-size: 100%;
+    background-position: 50%;
+}
+.fagaras{
+    height: 500px;
+    background-image: url(images/fagaras.jpeg);
+    background-size: 100%;
+    background-position: 50%;
+}
+.curtea{
+    height: 500px;
+    background-image: url(images/curtea.jpeg);
+    background-size: 100%;
+    background-position: 50%;
+}
+
+h1, h3{
+    margin-bottom: 0;
+    font-weight: 400;
+    background: linear-gradient(120deg, rgb(3, 126, 3, 0.5), rgba(255, 4, 0, 0.5));
+    color: white;
+    padding-left: 10px;
+
+}
+
+h1{
+    font-size: 64px;
+    font-family: 'Prata', serif;
+    
+}
+
+h3{
+
+    font-size: 24px;
+    font-family: 'Prata', serif;
+    margin-top: 0;
+
+}
+a{
+    font-style: italic;
+    font-weight: 600;
+}
+h6{
+    padding: 22px;
+    margin-bottom: 0px;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(120deg, rgb(3, 126, 3, 0.5), rgba(255, 4, 0, 0.5));
+}
+
+ul{
+    padding: auto;
+   
+    border: 3px;
+    border-color: black;
+}
+li{
+
+    padding: 6px;
+    padding-left: 22px;
+  
+   /* border-color: #dfdfdf;*/
+    
+}
+
+a:visited{
+    color: rgb(16, 69, 0); 
+}
+
+a:link{
+
+    color:red;
+    text-decoration: none;
+
+}
