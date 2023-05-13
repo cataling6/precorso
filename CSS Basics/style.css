@@ -9,41 +9,47 @@ body{
     padding: 20px;
 }
 /*classi per immagine di ogni pagina*/
+.romania{
+    height: 500px;
+    background-image: url(images/romania.jpg);
+    background-size: 100%;
+    background-position-y: 10%;
+}
 .transfagarasan{
     height: 500px;
     background-image: url(images/trans.jpeg);
     background-size: 100%;
-    background-position: 50%;
+    background-position-y: 25%;
 }
 .balea{
     height: 500px;
     background-image: url(images/balea.jpeg);
     background-size: 100%;
-    background-position: 50%;
+    background-position-y: 90%;
 }
 .brasov{
     height: 500px;
     background-image: url(images/brasov.jpg);
     background-size: 100%;
-    background-position: 50%;
+    background-position-y: 15%;
 }
 .sibiu{
     height: 500px;
     background-image: url(images/sibiu.jpeg);
     background-size: 100%;
-    background-position: 50%;
+    background-position-y: 5%;
 }
 .fagaras{
     height: 500px;
     background-image: url(images/fagaras.jpeg);
     background-size: 100%;
-    background-position: 50%;
+    background-position-y: 15%;
 }
 .curtea{
     height: 500px;
     background-image: url(images/curtea.jpeg);
     background-size: 100%;
-    background-position: 50%;
+    background-position-y: 95%;
 }
 
 h1, h3{
